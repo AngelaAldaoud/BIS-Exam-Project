@@ -1,0 +1,38 @@
+PERFORMANCE-ORIENTED ANALYSIS:
+    ## 🔍 Key Questions We'll Answer:
+
+        1. **Which variants are fastest?** → Lead time analysis
+        2. **Which variants are most efficient?** → Cycle time efficiency
+        3. **Where do patients wait the most?** → Waiting time by variant
+        4. **Are complex variants slower?** → Correlation between length and performance
+        5. **Which resources handle problematic cases?** → Resource-variant patterns
+    ## 📊 Analysis Approach
+
+        We'll perform **multi-level analysis**:
+
+        1. **Case-Variant Mapping** → Link each patient to their specific variant
+        2. **Data Integration** → Merge variants with performance metrics
+        3. **Variant Performance Profiling** → Calculate statistics per variant
+        4. **Comparative Analysis** → Identify best and worst performers
+        5. **Visualization** → Make patterns visible and actionable
+    ## 💡 Why This Matters
+
+        In healthcare:
+        - **Fast variants** = efficient treatment protocols
+        - **Slow variants** = potential bottlenecks or complications
+        - **High waiting time** = patient dissatisfaction and safety risks
+        - **Low efficiency** = wasted resources and capacity
+
+
+
+------------------
+
+
+Important to add into the documentation :
+
+    "Due to the event log containing only completion timestamps (not separate
+    start/complete times), we cannot directly measure activity processing times.
+    Therefore, we apply two complementary approaches:
+    
+    1. Lead Time Analysis: Measures total elapsed time (objective)
+    2. Estimated Cycle Time: Uses domain-informed duration estimates (subjective)"
